@@ -46,7 +46,7 @@ set(HEADERS
 )
 
 set(LIB_NOISE_LIBRARY
-        ${PROJECT_SOURCE_DIR}/3rdparty/libnoise2d/build/src/libnoise2d.so
+        ${PROJECT_SOURCE_DIR}/install/lib/libnoise2d.so
 )
 
 set(SOURCES

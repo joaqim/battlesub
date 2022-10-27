@@ -2,8 +2,12 @@
 
 cd "$(dirname "$0")"/..
 
+#PKGDIR=$PWD/install
 PKGDIR=./install
 export PATH=$PKGDIR/bin:/usr/bin/:$PATH
 export LD_LIBRARY_PATH=$PKGDIR/lib:$LD_LIBRARY_PATH
 
 ./install/bin/battle_sub
+
+#cd $PKGDIR/bin
+#./battle_sub

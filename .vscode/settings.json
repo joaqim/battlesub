@@ -1,0 +1,10 @@
+{
+    "cmake.buildEnvironment": {
+        "CMAKE_PREFIX_PATH": "${workspaceFolder}/install",
+        "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/install"
+    },
+    "cmake.configureEnvironment": {
+        "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/install",
+        "CMAKE_PREFIX_PATH": "${workspaceFolder}/install"
+    }
+}

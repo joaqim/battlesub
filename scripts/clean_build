@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd $(dirname "$0")/..
+
+rm -rf build
+
+libraries=(box2d corrade entt libnoise2d magnum magnum-integration)
+
+for lib in "${libraries[@]}"; do
+  if [ -d install/$lib/build ]; then
+    rm -rf install/$lib/build
+  fi
+done
